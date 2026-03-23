@@ -2,7 +2,7 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig({
   target: 'esnext',
-  entry: ['src/index.ts', 'src/prototypes'],
+  entry: ['src/**/*'],
   splitting: false,
   sourcemap: false,
   clean: true,
