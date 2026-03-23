@@ -4,7 +4,8 @@
   "description": "typescript study.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "start": "node ./dist/index.js"
   },
   "author": "ryeol22e",
   "license": "ISC",
