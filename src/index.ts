@@ -1,4 +1,4 @@
-import { isEmpty } from './utils/dataVerfication';
+import { isEmpty } from './utils/checker';
 
 if (isEmpty(null)) {
   console.log('hello');
